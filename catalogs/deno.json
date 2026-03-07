@@ -1,6 +1,6 @@
 {
-  "nodeModulesDir": "auto",
+  "nodeModulesDir": "manual",
   "tasks": {
-    "start": "deno run --allow-net --allow-env --allow-read --allow-sys index.js"
+    "start": "npm install && deno run --allow-net --allow-env --allow-read --allow-sys index.js"
   }
 }
