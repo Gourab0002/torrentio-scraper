@@ -1,0 +1,6 @@
+{
+  "nodeModulesDir": "manual",
+  "tasks": {
+    "start": "npm install && deno run --allow-net --allow-env --allow-read --allow-sys index.js"
+  }
+}
