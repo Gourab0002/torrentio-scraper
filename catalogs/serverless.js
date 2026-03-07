@@ -1,6 +1,6 @@
 import getRouter from 'stremio-addon-sdk/src/getRouter.js';
 import addonInterface from './addon.js';
-import qs from 'querystring';
+import qs from 'node:querystring';
 import { parseConfiguration } from '../addon/lib/configuration.js';
 import { createManifest } from './lib/manifest.js';
 

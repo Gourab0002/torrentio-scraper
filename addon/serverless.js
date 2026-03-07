@@ -6,7 +6,7 @@ import userAgentParser from 'ua-parser-js';
 import { createClient } from 'redis'
 import { RedisStore } from 'rate-limit-redis'
 import addonInterface from './addon.js';
-import qs from 'querystring';
+import qs from 'node:querystring';
 import { manifest } from './lib/manifest.js';
 import { parseConfiguration } from './lib/configuration.js';
 import landingTemplate from './lib/landingTemplate.js';
